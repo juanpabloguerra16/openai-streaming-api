@@ -5,4 +5,3 @@
 azure-functions
 openai
 azurefunctions-extensions-http-fastapi
-sophi-app-internal
