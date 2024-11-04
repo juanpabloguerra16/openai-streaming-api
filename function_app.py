@@ -17,9 +17,8 @@ temperature = 0.7
 client = openai.AsyncAzureOpenAI(
     azure_endpoint=endpoint,
     api_key=api_key,
-    api_version="2023-09-01-preview"
+    api_version="2023-03-15-preview"
 )
-
 
 # Get data from Azure Open AI
 async def stream_processor(response):
